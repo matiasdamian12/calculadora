@@ -1,0 +1,108 @@
+
+
+/* fondos */
+body{
+background-image:url(https://i.pinimg.com/564x/49/73/ea/4973ead72580df908af111b6770fe6ac.jpg) ;
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+
+.contenedor_titulo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: rgb(152, 227, 240);
+    }
+    
+.contenedor_calculadora{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% ;
+    height: 5vh;
+    
+    
+    
+}
+
+
+
+#valor1 {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#valor2 {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* botones */
+
+.botonlimpiar{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px ;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+
+
+
+.botonlimpiar:hover{
+    background: crimson;
+    transition: 0.1s;
+}
+
+
+.boton{
+    display:inline-flex ;
+    width: 150px ;
+    padding: 10px;
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    
+}
+.boton:hover{
+    
+    background: rgb(29, 26, 190);
+    transition: 1s;
+}
+
+
+    /* resultado */
+
+.resultado{
+   
+    justify-content: center;
+    align-content: center;
+    margin: 200px;
+    padding:1px;
+    font-weight:bolder;
+    font-size:100%;
+    text-align: center;
+    background-color: rgb(238, 238, 124);
+
+}
+
